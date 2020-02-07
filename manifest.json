@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "SideDice",
+  "version": "1.0",
+
+  "description": "Adds a dice roller to the sidebar",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "sidebar_action": {
+      "default_icon": {
+          "48": "icons/border-48.png"
+      },
+      "default_title": "Dice Roller",
+      "default_panel": "sidebar/sidedice.html",
+      "browser_style": false
+  }
+}
